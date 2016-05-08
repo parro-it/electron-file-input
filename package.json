@@ -6,7 +6,7 @@
   "license": "MIT",
   "author": "parro-it",
   "scripts": {
-    "test": "ava && xo"
+    "test": "xo"
   },
   "keywords": [],
   "engines": {
@@ -16,7 +16,11 @@
     "index.js"
   ],
   "devDependencies": {
-    "ava": "^0.14.0",
+    "electron-prebuilt": "^0.37.8",
     "xo": "^0.14.0"
+  },
+  "dependencies": {
+    "electron-contextmenu-middleware": "^1.0.1",
+    "react": "^15.0.2"
   }
 }
